@@ -2,6 +2,10 @@ package com.annotation;
 
 import java.util.ArrayList;
 import java.util.List;
+
+/**
+ * @SupressWarnning jdk中的一个内置注解
+ */
 @SuppressWarnings({"all"})
 public class SupresswarningTest {
     public static void main(String[]args){
